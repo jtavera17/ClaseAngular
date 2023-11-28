@@ -1,0 +1,142 @@
+body {
+    background-color: #f2f2f2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ini1{
+    font-family: 'Courier New', Courier, monospace;
+    color: #6ed3cf;
+}
+
+.contenedor_principal {
+    background-color: #dcdcdc;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    width: 300px;
+}
+
+.titulo {
+    text-align: center;
+    color: #2d2d2d;
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.formulario-contenedor {
+  display: flex;
+  flex-direction: column;
+  width: 700px;
+  height: auto;
+  background-color: #2d2d2d;
+  border-radius: 10px;
+  align-items: center;
+  color: white;
+}
+
+#mensajeRegistro {
+    margin-top: 15px;
+    text-align: center;
+    color: #6ed3cf;
+}
+
+.usuario_form,
+.contrasena_form,
+.apellido1_form,
+.apellido2_form,
+.correo_form,
+.celular_form,
+.direccion_form {
+    margin-bottom: 15px;
+}
+
+.label {
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #2d2d2d;
+    font-size: 14px;
+}
+
+.input_usuario,
+.input_contrasena,
+.input_apellido1,
+.input_apellido2,
+.input_correo,
+.input_celular,
+.input_direccion {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 5px;
+    border: 2px solid #6ed3cf;
+    border-radius: 6px;
+    background-color: #fff;
+    color: #2d2d2d;
+    font-size: 12px;
+}
+
+.botones {
+    margin-top: 15px;
+}
+
+.registro {
+    width: 100%;
+    padding: 12px;
+    cursor: pointer;
+    border: none;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #6ed3cf;
+    margin-bottom: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.registro:hover {
+    background-color: #45a049;
+}
+
+.opciones {
+    margin-top: 8px;
+    text-align: center;
+    color: #666;
+}
+       
+.h11{
+    margin: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.h12{
+    margin: 20px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.h13{
+    margin: 20px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.h14{
+    margin: 20px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.h15{
+    margin: 20px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.h16{
+    margin: 20px;
+    font-family: 'Courier New', Courier, monospace; 
+}
+
+.h17{
+    margin: 20px;
+  font-family: 'Courier New', Courier, monospace;
+}

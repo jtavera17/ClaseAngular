@@ -1,0 +1,23 @@
+.encabezado {
+    text-align: left;
+    color: #4c68af; /* Cambia el color a verde */
+    margin-top: 30px; /* Reduce el espacio superior */
+    font-size: 24px; /* Reduce el tamaño de la fuente */
+    font-family: 'Arial', sans-serif; /* Cambia el tipo de letra */
+}
+
+.tit-datos {
+    margin-top: 50px; /* Ajusta el espacio superior */
+    margin-left: 50px; /* Ajusta el espacio izquierdo */
+    font-size: 28px; /* Ajusta el tamaño de la fuente */
+    color: #4CAF50; /* Cambia el color a verde */
+    font-family: 'Verdana', sans-serif; /* Cambia el tipo de letra */
+}
+
+.datos {
+    margin-top: 10px; /* Ajusta el espacio superior */
+    margin-left: 50px; /* Ajusta el espacio izquierdo */
+    font-size: 24px; /* Ajusta el tamaño de la fuente */
+    color: #4CAF50; /* Cambia el color a verde */
+    font-family: 'Arial', sans-serif; /* Cambia el tipo de letra */
+}

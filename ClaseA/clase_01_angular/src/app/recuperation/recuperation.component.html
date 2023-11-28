@@ -1,0 +1,27 @@
+
+    <div class="contenedor principal">
+        <div class="titulo">
+            <h1 class="ini1">Recuperar contraseña</h1>
+        </div>
+        <div class="formulario-contenedor">
+                <div class="usuario_form">
+                    <label for=""><h3 class="h11">Digite su nombre de usuario</h3></label>
+                    <input type="text" name="usuario" id="usuario" class="input_usuario" required [(ngModel)]="nombreUsuarioRec">
+                </div>
+
+                <div class="contrasena_form">
+                    <label for=""><h3 class="h12">Digite su nueva contraseña</h3></label>
+                    <input type="password" name="contrasena" id="contrasena" class="input_contrasena" required [(ngModel)]="contrasenaRec">
+                </div>
+
+                <div class="botones">
+                    <button (click)="validarRec()" class="inicio">Cambiar contraseña</button>
+                </div>
+
+                <div id="mensajeRec">{{ mensajeRecuperacion }}</div>
+
+
+
+
+        </div>
+    </div>

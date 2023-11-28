@@ -1,0 +1,50 @@
+    <div class="contenedor principal">
+        <div class="titulo">
+            <h1 class="ini1">Registro</h1>
+        </div>
+        <div class="formulario-contenedor">
+                <div class="usuario_form">
+                    <label for=""><h3 class="h11">Nombre</h3></label>
+                    <input type="text" name="usuario" id="usuario" class="input_usuario" required [(ngModel)]="nombreUsuarioRegistro">
+                </div>
+
+                <div class="apellido1_form">
+                    <label for=""><h3 class="h12">Apellido</h3></label>
+                    <input type="text" name="apellido1" id="apellido1" class="input_apellido1" required [(ngModel)]="primerApellidoRegistro">
+                </div>
+
+                <div class="apellido2_form">
+                    <label for=""><h3 class="h13">Segundo apellido</h3></label>
+                    <input type="text" name="apellido2" id="apellido2" class="input_apellido2" required [(ngModel)]="segundoApellidoRegistro">
+                </div>
+
+                <div class="correo_form">
+                    <label for=""><h3 class="h14">Correo electronico</h3></label>
+                    <input type="email" name="correo" id="correo" class="input_correo" required [(ngModel)]="correoRegistro">
+                </div>
+
+                <div class="celular_form">
+                    <label for=""><h3 class="h15">Celular</h3></label>
+                    <input type="number" name="celular" id="celular" class="input_celular" required [(ngModel)]="celularRegistro">
+                </div>
+
+                <div class="direccion_form">
+                    <label for=""><h3 class="h16">Direccion</h3></label>
+                    <input type="text" name="direccion" id="direccion" class="input_direccion" required [(ngModel)]="direccionRegistro">
+                </div>
+
+                <div class="contrasena_form">
+                    <label for=""><h3 class="h17">Contraseña</h3></label>
+                    <input type="password" name="contrasena" id="contrasena" class="input_contrasena" required [(ngModel)]="contrasenaUsuarioRegistro">
+                </div>
+
+
+                <div class="botones">
+                    <button (click)="enviarDatosRegistro()" class="registro">Registrarse</button>
+                </div>
+
+                <div id="mensajeRegistro">{{ mensajeRegistro }}</div>
+
+        </div>
+    </div>
+
